@@ -1,0 +1,8 @@
+include ':CursorVisualizerModule'
+include ':app'
+rootProject.name = "CursorVisualizer"
+
+
+
+//include ':PictureProvider'
+
