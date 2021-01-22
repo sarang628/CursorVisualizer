@@ -2,7 +2,5 @@ include ':CursorVisualizerModule'
 include ':app'
 rootProject.name = "CursorVisualizer"
 
-
-
-//include ':PictureProvider'
-
+include ':MediaContentProvider'
+project(':MediaContentProvider').projectDir = new File("/Users/sarangyang/AndroidStudioProjects/MediaContentResolver/MediaContentResolverLibrary")
